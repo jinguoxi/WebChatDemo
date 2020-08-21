@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA12FE124EE716400AB2151 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA12FE024EE716400AB2151 /* JavaScriptCore.framework */; };
+		ACA1305124EE88F400AB2151 /* EliteJSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA1305024EE88F400AB2151 /* EliteJSObject.m */; };
+		ACBEC27E24ECD66500116E48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC27D24ECD66500116E48 /* AppDelegate.m */; };
+		ACBEC28424ECD66500116E48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC28324ECD66500116E48 /* ViewController.m */; };
+		ACBEC28724ECD66500116E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBEC28524ECD66500116E48 /* Main.storyboard */; };
+		ACBEC28A24ECD66500116E48 /* WebchatDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC28824ECD66500116E48 /* WebchatDemo.xcdatamodeld */; };
+		ACBEC28C24ECD66800116E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBEC28B24ECD66800116E48 /* Assets.xcassets */; };
+		ACBEC28F24ECD66800116E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBEC28D24ECD66800116E48 /* LaunchScreen.storyboard */; };
+		ACBEC29224ECD66800116E48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC29124ECD66800116E48 /* main.m */; };
+		ACBEC29C24ECD66900116E48 /* WebchatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC29B24ECD66900116E48 /* WebchatDemoTests.m */; };
+		ACBEC2A724ECD66900116E48 /* WebchatDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC2A624ECD66900116E48 /* WebchatDemoUITests.m */; };
+		ACBEC2B924ECEA4900116E48 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBEC2B824ECEA4900116E48 /* ChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACBEC29824ECD66900116E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBEC27124ECD66500116E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBEC27824ECD66500116E48;
+			remoteInfo = WebchatDemo;
+		};
+		ACBEC2A324ECD66900116E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBEC27124ECD66500116E48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBEC27824ECD66500116E48;
+			remoteInfo = WebchatDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA12FE024EE716400AB2151 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ACA1304F24EE88B000AB2151 /* EliteJSObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EliteJSObject.h; sourceTree = "<group>"; };
+		ACA1305024EE88F400AB2151 /* EliteJSObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EliteJSObject.m; sourceTree = "<group>"; };
+		ACBEC27924ECD66500116E48 /* WebchatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebchatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBEC27C24ECD66500116E48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACBEC27D24ECD66500116E48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACBEC28224ECD66500116E48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACBEC28324ECD66500116E48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACBEC28624ECD66500116E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACBEC28924ECD66500116E48 /* WebchatDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebchatDemo.xcdatamodel; sourceTree = "<group>"; };
+		ACBEC28B24ECD66800116E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBEC28E24ECD66800116E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACBEC29024ECD66800116E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBEC29124ECD66800116E48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACBEC29724ECD66900116E48 /* WebchatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebchatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBEC29B24ECD66900116E48 /* WebchatDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebchatDemoTests.m; sourceTree = "<group>"; };
+		ACBEC29D24ECD66900116E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBEC2A224ECD66900116E48 /* WebchatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebchatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBEC2A624ECD66900116E48 /* WebchatDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebchatDemoUITests.m; sourceTree = "<group>"; };
+		ACBEC2A824ECD66900116E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACBEC2B724ECEA2C00116E48 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		ACBEC2B824ECEA4900116E48 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACBEC27624ECD66500116E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA12FE124EE716400AB2151 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC29424ECD66900116E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC29F24ECD66900116E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA12FDF24EE716300AB2151 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA12FE024EE716400AB2151 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACBEC27024ECD66500116E48 = {
+			isa = PBXGroup;
+			children = (
+				ACBEC27B24ECD66500116E48 /* WebchatDemo */,
+				ACBEC29A24ECD66900116E48 /* WebchatDemoTests */,
+				ACBEC2A524ECD66900116E48 /* WebchatDemoUITests */,
+				ACBEC27A24ECD66500116E48 /* Products */,
+				ACA12FDF24EE716300AB2151 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACBEC27A24ECD66500116E48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEC27924ECD66500116E48 /* WebchatDemo.app */,
+				ACBEC29724ECD66900116E48 /* WebchatDemoTests.xctest */,
+				ACBEC2A224ECD66900116E48 /* WebchatDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBEC27B24ECD66500116E48 /* WebchatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEC27C24ECD66500116E48 /* AppDelegate.h */,
+				ACBEC27D24ECD66500116E48 /* AppDelegate.m */,
+				ACBEC28224ECD66500116E48 /* ViewController.h */,
+				ACBEC28324ECD66500116E48 /* ViewController.m */,
+				ACBEC28524ECD66500116E48 /* Main.storyboard */,
+				ACBEC28B24ECD66800116E48 /* Assets.xcassets */,
+				ACBEC28D24ECD66800116E48 /* LaunchScreen.storyboard */,
+				ACBEC29024ECD66800116E48 /* Info.plist */,
+				ACBEC29124ECD66800116E48 /* main.m */,
+				ACBEC28824ECD66500116E48 /* WebchatDemo.xcdatamodeld */,
+				ACBEC2B724ECEA2C00116E48 /* ChatViewController.h */,
+				ACBEC2B824ECEA4900116E48 /* ChatViewController.m */,
+				ACA1304F24EE88B000AB2151 /* EliteJSObject.h */,
+				ACA1305024EE88F400AB2151 /* EliteJSObject.m */,
+			);
+			path = WebchatDemo;
+			sourceTree = "<group>";
+		};
+		ACBEC29A24ECD66900116E48 /* WebchatDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEC29B24ECD66900116E48 /* WebchatDemoTests.m */,
+				ACBEC29D24ECD66900116E48 /* Info.plist */,
+			);
+			path = WebchatDemoTests;
+			sourceTree = "<group>";
+		};
+		ACBEC2A524ECD66900116E48 /* WebchatDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBEC2A624ECD66900116E48 /* WebchatDemoUITests.m */,
+				ACBEC2A824ECD66900116E48 /* Info.plist */,
+			);
+			path = WebchatDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACBEC27824ECD66500116E48 /* WebchatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBEC2AB24ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemo" */;
+			buildPhases = (
+				ACBEC27524ECD66500116E48 /* Sources */,
+				ACBEC27624ECD66500116E48 /* Frameworks */,
+				ACBEC27724ECD66500116E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebchatDemo;
+			productName = WebchatDemo;
+			productReference = ACBEC27924ECD66500116E48 /* WebchatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACBEC29624ECD66900116E48 /* WebchatDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBEC2AE24ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemoTests" */;
+			buildPhases = (
+				ACBEC29324ECD66900116E48 /* Sources */,
+				ACBEC29424ECD66900116E48 /* Frameworks */,
+				ACBEC29524ECD66900116E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBEC29924ECD66900116E48 /* PBXTargetDependency */,
+			);
+			name = WebchatDemoTests;
+			productName = WebchatDemoTests;
+			productReference = ACBEC29724ECD66900116E48 /* WebchatDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACBEC2A124ECD66900116E48 /* WebchatDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBEC2B124ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemoUITests" */;
+			buildPhases = (
+				ACBEC29E24ECD66900116E48 /* Sources */,
+				ACBEC29F24ECD66900116E48 /* Frameworks */,
+				ACBEC2A024ECD66900116E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBEC2A424ECD66900116E48 /* PBXTargetDependency */,
+			);
+			name = WebchatDemoUITests;
+			productName = WebchatDemoUITests;
+			productReference = ACBEC2A224ECD66900116E48 /* WebchatDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACBEC27124ECD66500116E48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = EliteCRM;
+				TargetAttributes = {
+					ACBEC27824ECD66500116E48 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ACBEC29624ECD66900116E48 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ACBEC27824ECD66500116E48;
+					};
+					ACBEC2A124ECD66900116E48 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ACBEC27824ECD66500116E48;
+					};
+				};
+			};
+			buildConfigurationList = ACBEC27424ECD66500116E48 /* Build configuration list for PBXProject "WebchatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACBEC27024ECD66500116E48;
+			productRefGroup = ACBEC27A24ECD66500116E48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBEC27824ECD66500116E48 /* WebchatDemo */,
+				ACBEC29624ECD66900116E48 /* WebchatDemoTests */,
+				ACBEC2A124ECD66900116E48 /* WebchatDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACBEC27724ECD66500116E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBEC28F24ECD66800116E48 /* LaunchScreen.storyboard in Resources */,
+				ACBEC28C24ECD66800116E48 /* Assets.xcassets in Resources */,
+				ACBEC28724ECD66500116E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC29524ECD66900116E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC2A024ECD66900116E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBEC27524ECD66500116E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBEC29224ECD66800116E48 /* main.m in Sources */,
+				ACBEC28424ECD66500116E48 /* ViewController.m in Sources */,
+				ACBEC27E24ECD66500116E48 /* AppDelegate.m in Sources */,
+				ACA1305124EE88F400AB2151 /* EliteJSObject.m in Sources */,
+				ACBEC2B924ECEA4900116E48 /* ChatViewController.m in Sources */,
+				ACBEC28A24ECD66500116E48 /* WebchatDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC29324ECD66900116E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBEC29C24ECD66900116E48 /* WebchatDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBEC29E24ECD66900116E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBEC2A724ECD66900116E48 /* WebchatDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACBEC29924ECD66900116E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBEC27824ECD66500116E48 /* WebchatDemo */;
+			targetProxy = ACBEC29824ECD66900116E48 /* PBXContainerItemProxy */;
+		};
+		ACBEC2A424ECD66900116E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBEC27824ECD66500116E48 /* WebchatDemo */;
+			targetProxy = ACBEC2A324ECD66900116E48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACBEC28524ECD66500116E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACBEC28624ECD66500116E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACBEC28D24ECD66800116E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACBEC28E24ECD66800116E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACBEC2A924ECD66900116E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACBEC2AA24ECD66900116E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACBEC2AC24ECD66900116E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACBEC2AD24ECD66900116E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACBEC2AF24ECD66900116E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebchatDemo.app/WebchatDemo";
+			};
+			name = Debug;
+		};
+		ACBEC2B024ECD66900116E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebchatDemo.app/WebchatDemo";
+			};
+			name = Release;
+		};
+		ACBEC2B224ECD66900116E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebchatDemo;
+			};
+			name = Debug;
+		};
+		ACBEC2B324ECD66900116E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT38BC53F3;
+				INFOPLIST_FILE = WebchatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elitecrm.webchat.WebchatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebchatDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACBEC27424ECD66500116E48 /* Build configuration list for PBXProject "WebchatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEC2A924ECD66900116E48 /* Debug */,
+				ACBEC2AA24ECD66900116E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBEC2AB24ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEC2AC24ECD66900116E48 /* Debug */,
+				ACBEC2AD24ECD66900116E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBEC2AE24ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEC2AF24ECD66900116E48 /* Debug */,
+				ACBEC2B024ECD66900116E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBEC2B124ECD66900116E48 /* Build configuration list for PBXNativeTarget "WebchatDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBEC2B224ECD66900116E48 /* Debug */,
+				ACBEC2B324ECD66900116E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACBEC28824ECD66500116E48 /* WebchatDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACBEC28924ECD66500116E48 /* WebchatDemo.xcdatamodel */,
+			);
+			currentVersion = ACBEC28924ECD66500116E48 /* WebchatDemo.xcdatamodel */;
+			path = WebchatDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACBEC27124ECD66500116E48 /* Project object */;
+}
